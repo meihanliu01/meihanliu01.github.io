@@ -2,8 +2,8 @@
 import { siteConfig } from "../config";
 
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasPersonalLife = siteConfig.personalLife && siteConfig.personalLife.length > 0;
 ---
 
 <header
@@ -20,6 +20,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           About
         </a>
       </li>
+
       {
         hasProjects && (
           <li>
@@ -32,18 +33,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           </li>
         )
       }
-      {
-        hasExperience && (
-          <li>
-            <a
-              href="#experience"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Experience
-            </a>
-          </li>
-        )
-      }
+
       {
         hasEducation && (
           <li>
@@ -52,6 +42,19 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Education
+            </a>
+          </li>
+        )
+      }
+
+      {
+        hasPersonalLife && (
+          <li>
+            <a
+              href="#personal-life"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Life
             </a>
           </li>
         )

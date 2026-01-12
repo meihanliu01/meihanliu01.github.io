@@ -1,91 +1,157 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Meihan liu",
+  title: "ECE graduate student at Waterloo University",
+  description: "Portfolio website of Meihan Liu",
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "mliu64@outlook.com",
+    linkedin: "https://www.linkedin.com/in/meihanliu01",
+    github: "https://github.com/meihanliu01",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+
+  aboutMe: "I build intelligent systems and elegant digital experiences, with the goal of creating technology that genuinely helps people.",
+
+  avatar: {
+    src: "/me.jpg",
+    alt: "Meihan Liu",
+  },
+
+  skills: ["Java", "React", "R", "Python", "C++", "SQL", "JavaScript"],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Smart Clinical Trial Search for Small Molecule Drugs",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Provide pharmaceutical researchers with the most up-to-date clinical trial information through molecular fingerprint similarity calculation of small molecule drugs.",
+      link: "https://devpost.com/software/smart-clinical-trial-search-for-small-molecule-drugs?_gl=1*1tdybf9*_gcl_au*NDE4OTEwOTI3LjE3NjY4NTI4ODM.*_ga*MTU1MDAyNzY5Ny4xNzM4MTE1MjY3*_ga_0YHJK3Y10M*czE3NjgyNDYwNjQkbzEzJGcxJHQxNzY4MjQ2MDg0JGo0MCRsMCRoMA..",
+      skills: ["Python", "R", "rdkit", "shiny"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Multi-GPU CAGRA",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Built a scalable multi-GPU extension of NVIDIA CAGRA for billion-scale Approximate Nearest Neighbor (ANN) search, enabling 50M+ vectors with high recall and parallel GPU indexing.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["CUDA", "Multi-GPU", "ANN"],
     },
     {
-      name: "ExtensionKit",
+      name: "Spatial–Temporal Ecosystem Simulation with Coupled Map Lattices ",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Developed Python-based mathematical and spatial models to simulate nutrient cycling and biomass dynamics in ecosystems, including ODE and coupled-map lattice systems.",
       link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "ODEs", "Coupled Map Lattice", "Simulation", "Data Visualization"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "University of Waterloo",
+      degree: "Master of Engineering in Electrical and Computer Engineering",
+      dateRange: "2025-current",
+      // achievements: [
+      //   "Graduated Magna Cum Laude with 3.8 GPA",
+      //   "Dean's List all semesters",
+      //   "President of Computer Science Club",
+      // ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "McGill University",
+      degree: "Bachelor of Science in Computer Science and Biology, Minor in Mathematics",
+      dateRange: "2018-2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Won Best Use of Google Cloud at Pharmahacks 2022 for innovative cloud integration.",
+        "Built 10+ projects",
+        "Specialized in bioinformatics",
+      ],
+    },
+  ],
+
+  personalLife: [
+    {
+      slug: "baking",
+      title: "Baking",
+      cover: "/personal/baking/cover.jpg",
+      description:
+        "I love baking – especially experimenting with breads and pastries.",
+      images: [
+        "/personal/baking/1.jpg",
+        "/personal/baking/2.jpg",
+        "/personal/baking/3.jpg",
+        "/personal/baking/4.jpg",
+        "/personal/baking/5.jpg",
+      ],
+    },
+
+    {
+      slug: "travelling",
+      title: "Travelling",
+      cover: "/personal/travelling/cover.jpg",
+      description:
+        "A small collection of places I've been lucky enough to visit ✨",
+      sections: [
+        {
+          title: "Portugal 🇵🇹",
+          images: [
+            "/personal/travelling/portugal/1.jpg",
+            "/personal/travelling/portugal/2.jpg",
+            "/personal/travelling/portugal/3.jpg",
+            "/personal/travelling/portugal/4.jpg",
+            "/personal/travelling/portugal/5.jpg",
+            "/personal/travelling/portugal/6.jpg",
+            "/personal/travelling/portugal/7.jpg",
+            "/personal/travelling/portugal/8.jpg",
+          ],
+        },
+        {
+          title: "Spain 🇪🇸",
+          images: [
+            "/personal/travelling/spain/1.jpg",
+            "/personal/travelling/spain/2.jpg",
+            "/personal/travelling/spain/3.jpg",
+            "/personal/travelling/spain/4.jpg",
+            "/personal/travelling/spain/5.jpg",
+            "/personal/travelling/spain/6.jpg",
+            "/personal/travelling/spain/7.jpg",
+            "/personal/travelling/spain/8.jpg",
+            "/personal/travelling/spain/9.jpg",
+            "/personal/travelling/spain/10.jpg",
+            "/personal/travelling/spain/11.jpg",
+            "/personal/travelling/spain/12.jpg",
+          ],
+        },
+        {
+          title: "Dominican Republic 🇩🇴",
+          images: [
+            "/personal/travelling/dominican/1.jpg",
+            "/personal/travelling/dominican/2.jpg",
+            "/personal/travelling/dominican/3.jpg",
+            "/personal/travelling/dominican/4.jpg",
+            "/personal/travelling/dominican/5.jpg",
+            "/personal/travelling/dominican/6.jpg",
+          ],
+            
+            
+
+        },
+      ],
+    },
+
+    {
+      slug: "coffee-hopping",
+      title: "Coffee Hopping",
+      cover: "/personal/coffee/cover.jpg",
+      description:
+        "Exploring cafes and tasting new beans around the city ✨",
+      images: [
+        "/personal/coffee/1.jpg",
+        "/personal/coffee/2.jpg",
+        "/personal/coffee/3.jpg",
+        "/personal/coffee/4.jpg",
+        "/personal/coffee/5.jpg",
+        "/personal/coffee/6.jpg",
+        "/personal/coffee/7.jpg",
+        "/personal/coffee/8.jpg",
+        "/personal/coffee/9.jpg",
       ],
     },
   ],
