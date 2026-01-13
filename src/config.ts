@@ -21,19 +21,19 @@ export const siteConfig = {
 
   projects: [
     {
+      name: "Multi-GPU CAGRA",
+      description:
+        "Built a scalable multi-GPU extension of NVIDIA CAGRA for billion-scale Approximate Nearest Neighbor (ANN) search, enabling 50M+ vectors with high recall and parallel GPU indexing.",
+      external: "https://devpost.com/software/scalable-approximate-knn-search-based-on-cagra", 
+      skills: ["CUDA", "Multi-GPU", "ANN"],
+    },
+    {
       name: "Smart Clinical Trial Search for Small Molecule Drugs",
       description:
         "Provide pharmaceutical researchers with the most up-to-date clinical trial information through molecular fingerprint similarity calculation of small molecule drugs.",
       external:
         "https://devpost.com/software/smart-clinical-trial-search-for-small-molecule-drugs?_gl=1*5kts4c*_gcl_au*NDE4OTEwOTI3LjE3NjY4NTI4ODM.*_ga*MTU1MDAyNzY5Ny4xNzM4MTE1MjY3*_ga_0YHJK3Y10M*czE3NjgyNzAzNDQkbzE1JGcxJHQxNzY4MjcwMzQ5JGo1NSRsMCRoMA..",
       skills: ["Python", "R", "RDKit", "Shiny"],
-    },
-    {
-      name: "Multi-GPU CAGRA",
-      description:
-        "Built a scalable multi-GPU extension of NVIDIA CAGRA for billion-scale Approximate Nearest Neighbor (ANN) search, enabling 50M+ vectors with high recall and parallel GPU indexing.",
-      external: "https://devpost.com/software/scalable-approximate-knn-search-based-on-cagra", 
-      skills: ["CUDA", "Multi-GPU", "ANN"],
     },
     {
       name: "Spatial–Temporal Ecosystem Simulation with Coupled Map Lattices",
