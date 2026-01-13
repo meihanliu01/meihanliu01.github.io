@@ -24,24 +24,26 @@ export const siteConfig = {
       name: "Smart Clinical Trial Search for Small Molecule Drugs",
       description:
         "Provide pharmaceutical researchers with the most up-to-date clinical trial information through molecular fingerprint similarity calculation of small molecule drugs.",
-      link: "https://devpost.com/software/smart-clinical-trial-search-for-small-molecule-drugs?_gl=1*1tdybf9*_gcl_au*NDE4OTEwOTI3LjE3NjY4NTI4ODM.*_ga*MTU1MDAyNzY5Ny4xNzM4MTE1MjY3*_ga_0YHJK3Y10M*czE3NjgyNDYwNjQkbzEzJGcxJHQxNzY4MjQ2MDg0JGo0MCRsMCRoMA..",
-      skills: ["Python", "R", "rdkit", "shiny"],
+      external:
+        "https://devpost.com/software/smart-clinical-trial-search-for-small-molecule-drugs?_gl=1*5kts4c*_gcl_au*NDE4OTEwOTI3LjE3NjY4NTI4ODM.*_ga*MTU1MDAyNzY5Ny4xNzM4MTE1MjY3*_ga_0YHJK3Y10M*czE3NjgyNzAzNDQkbzE1JGcxJHQxNzY4MjcwMzQ5JGo1NSRsMCRoMA..",
+      skills: ["Python", "R", "RDKit", "Shiny"],
     },
     {
       name: "Multi-GPU CAGRA",
       description:
         "Built a scalable multi-GPU extension of NVIDIA CAGRA for billion-scale Approximate Nearest Neighbor (ANN) search, enabling 50M+ vectors with high recall and parallel GPU indexing.",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+      external: "https://devpost.com/software/scalable-approximate-knn-search-based-on-cagra", 
       skills: ["CUDA", "Multi-GPU", "ANN"],
     },
     {
-      name: "Spatial–Temporal Ecosystem Simulation with Coupled Map Lattices ",
+      name: "Spatial–Temporal Ecosystem Simulation with Coupled Map Lattices",
       description:
         "Developed Python-based mathematical and spatial models to simulate nutrient cycling and biomass dynamics in ecosystems, including ODE and coupled-map lattice systems.",
-      link: "https://extensionkit.io/?ref=devportfolio",
+      external: "https://devpost.com/software/spatial-temporal-ecosystem-simulation-with-cml",
       skills: ["Python", "ODEs", "Coupled Map Lattice", "Simulation", "Data Visualization"],
     },
   ],
+
 
   education: [
     {
@@ -129,8 +131,8 @@ export const siteConfig = {
             "/personal/travelling/dominican/5.jpg",
             "/personal/travelling/dominican/6.jpg",
           ],
-            
-            
+
+
 
         },
       ],
